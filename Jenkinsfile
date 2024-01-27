@@ -3,8 +3,8 @@ pipeline {
 
   environment {
     SERVICE_NAME       = "container-registry"
-    ORGANIZATION_NAME  = "devj1-java01"
-    DOCKERHUB_USERNAME = "devj1-java01"
+    ORGANIZATION_NAME  = "devj1-sherif"
+    DOCKERHUB_USERNAME = "devj1-sherif"
     REGISTRY_TAG       = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
     REPO_TAG           = "public.ecr.aws/g0b5g9q2"
     PRIVATE_REPO_TAG   = "765176032689.dkr.ecr.eu-west-1.amazonaws.com"
